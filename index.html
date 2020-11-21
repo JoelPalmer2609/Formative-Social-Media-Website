@@ -30,8 +30,21 @@
             <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search </button>
         </form>
         <div class="nav navbar-nav navbar-right">
-            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Login</button>
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" id="LoginButton">Login</button>
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" id="LoginButton">Sign in</button>
         </div> 
     </nav>
 </body>
 </html>
+
+<script>
+    var LoginButton = document.getElementById("LoginButton")
+    
+    function Login(){
+        var Username = prompt("Please enter your username")
+        if (Username != null) {
+            var Password = prompt("Please enter password")
+        }
+    }
+    LoginButton.addEventListener("click",Login)
+</script>
