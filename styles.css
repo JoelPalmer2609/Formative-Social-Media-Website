@@ -1,0 +1,24 @@
+    .ButtonCircle { 
+        width: 70px; 
+        height: 70px; 
+        padding: 10px 16px; 
+        border-radius: 35px; 
+        font-size: 12px; 
+        text-align: center; 
+    } 
+    .Centre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+    }
+    .BottomRight {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .VerticalCenter {
+        margin: 0;
+        position: absolute;
+        right: 40%;
+    }
